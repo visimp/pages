@@ -1,4 +1,4 @@
-baseURL = 'http://foxyseta.github.io/visimp-pages'
+baseURL = 'http://visimp.github.io/pages'
 languageCode = 'en-us'
 theme = "hugo-book"
 title = 'visimp'
@@ -25,7 +25,7 @@ enableGitInfo = true
 [menu]
 [[menu.after]]
   name = "Project Repository"
-  url = "https://github.com/lucat1/visimp"
+  url = "https://github.com/visimp/visimp"
   weight = 10
 
 [[menu.after]]
@@ -37,4 +37,4 @@ enableGitInfo = true
   BookCommitPath = 'commit'
   # BookEditPath = 'edit/main/' # one content/ folder too many
   BookTheme = 'auto'
-  BookRepo = 'https://github.com/lucat1/visimp'
+  BookRepo = 'https://github.com/visimp/visimp'

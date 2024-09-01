@@ -3,5 +3,5 @@
 	url = https://github.com/alex-shpak/hugo-book
 [submodule "content"]
 	path = content
-	url = https://github.com/lucat1/visimp
+	url = https://github.com/visimp/visimp
 	branch = doc/visimp-pages
