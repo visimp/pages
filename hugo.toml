@@ -30,7 +30,7 @@ enableGitInfo = true
 
 [[menu.after]]
   name = "Website repository"
-  url = "https://github.com/foxyseta/visimp-pages"
+  url = "https://github.com/visimp/pages"
   weight = 20
 
 [params]
