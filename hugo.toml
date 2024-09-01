@@ -22,6 +22,16 @@ enableGitInfo = true
     style = 'algol'
     tabWidth = 2
 
+[menu]
+[[menu.after]]
+  name = "Project Repository"
+  url = "https://github.com/lucat1/visimp"
+  weight = 10
+
+[[menu.after]]
+  name = "Website repository"
+  url = "https://github.com/foxyseta/visimp-pages"
+  weight = 20
 
 [params]
   BookCommitPath = 'commit'
