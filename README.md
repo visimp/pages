@@ -1,2 +1,3 @@
-# visimp-web
-Static website for visimp
+# `visimp` pages
+
+Static website for [`visimp`](https://github.com/lucat1/visimp).

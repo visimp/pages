@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Computer Modern Medium";
+  font-style: normal;
+  font-display: swap;
+  src: local(""), url("fonts/cmunrm.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Computer Modern Bold";
+  font-style: normal;
+  font-display: swap;
+  src: local(""), url("fonts/cmunbx.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Computer Modern Italic";
+  font-style: normal;
+  font-display: swap;
+  src: local(""), url("fonts/cmunti.ttf") format("truetype");
+}
+
+body {
+  font-family: "Computer Modern Medium", serif;
+  font-size: 1.1em;
+}
+
+b {
+  font-family: "Computer Modern Bold", serif;
+}
+
+em {
+  font-family: "Computer Modern Italic", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a {
+  font-variant: small-caps;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+}

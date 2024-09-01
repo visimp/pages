@@ -1,0 +1,21 @@
+:root {
+  --color-visited-link: var(--body-font-color);
+  --color-link: var(--body-font-color);
+}
+
+.markdown a,
+.markdown a:visited,
+.markdown a:hover,
+.markdown a:active,
+.markdown a:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--body-font-color);
+}
+
+a.active {
+  font-family: "Computer Modern Bold", serif;
+}
+
+.markdown code {
+  background: transparent;
+}
