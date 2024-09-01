@@ -4,3 +4,4 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/lucat1/visimp
+	branch = doc/visimp-pages
