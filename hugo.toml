@@ -7,6 +7,13 @@ disablePathToLower = true
 enableGitInfo = true
 
 [markup]
+  [markup]
+      [markup.goldmark.extensions]
+        [markup.goldmark.extensions.passthrough]
+          enable = true
+          [markup.goldmark.extensions.passthrough.delimiters]
+            block = [['\[', '\]'], ['$$', '$$']]
+            inline = [['\(', '\)'], ['$', '$']]
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
@@ -19,7 +26,7 @@ enableGitInfo = true
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    style = 'algol'
+    # style = 'algol'
     tabWidth = 2
 
 [menu]
