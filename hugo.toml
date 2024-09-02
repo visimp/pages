@@ -25,7 +25,7 @@ enableGitInfo = true
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    # style = 'algol'
+    style = 'gruvbox'
     tabWidth = 2
 
 [menu]
