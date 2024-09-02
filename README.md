@@ -6,8 +6,10 @@ Static [Hugo](https://gohugo.io) website for
 Before invoking `hugo`, use
 
 ```bash
-cp content/README.md content/_index.md
+find content -type -l | xargs sed -i ''
 ```
 
-This way, `visimp`'s README will be used as the website's homepage. The CI
-pipeline also takes care of this.
+This way, symbolic links in `visimp` will become copies of the respective
+original files. The CI pipeline also takes care of this. Please do not commit
+these changes. Our Hugo theme does not work well with symbolic links, but there
+are sometimes important to maintain the codebase non-repetitive.
