@@ -52,7 +52,9 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+        # Use README as homepage
         run: |
+          cp content/README.md content/_index.md &&
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
