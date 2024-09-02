@@ -1,4 +1,4 @@
-baseURL = 'http://visimp.github.io/pages'
+baseURL = 'https://visimp.teapot.ovh'
 languageCode = 'en-us'
 theme = "hugo-book"
 title = 'visimp'
