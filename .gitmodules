@@ -4,4 +4,3 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/visimp/visimp
-	branch = doc/visimp-pages
