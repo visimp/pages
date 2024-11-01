@@ -3,7 +3,6 @@ languageCode = 'en-us'
 theme = "hugo-book"
 title = 'visimp'
 
-disablePathToLower = true
 enableGitInfo = true
 
 [markup]
@@ -30,14 +29,9 @@ enableGitInfo = true
 
 [menu]
 [[menu.after]]
-  name = "Project Repository"
-  url = "https://github.com/visimp/visimp"
+  name = "Source"
+  url = "https://github.com/visimp"
   weight = 10
-
-[[menu.after]]
-  name = "Website repository"
-  url = "https://github.com/visimp/pages"
-  weight = 20
 
 [params]
   BookCommitPath = 'commit'
