@@ -13,7 +13,7 @@ specified using VS Code syntax, SnipMate syntax, or directly in Lua.
 - `<C-E>` (ctrl + e) in insert/selection mode: cycles through options for
   multiple choice snippet stops.
 
-Bindings can be customized via the [`binds` layer](./BINDS.md).
+Bindings can be customized via the [`binds` layer]({{< ref "binds" >}}).
 
 ## Configuration
 
@@ -75,7 +75,8 @@ return { -- this .lua file returns a list with just one snippet
 }
 ```
 
-See the [documentation section](#documentation) to get familiar with LuaSnip.
+See the [documentation section]({{< ref "#documentation" >}}) to get familiar
+with LuaSnip.
 
 ## Layer-specific API
 

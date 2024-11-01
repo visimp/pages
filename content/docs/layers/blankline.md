@@ -9,11 +9,12 @@ The `blankline` layer adds indentation vertical guides using
   `indent-blankline.nvim` plugin, as described in the relevant docs' [`config`
   type](https://github.com/lukas-reineke/indent-blankline.nvim/blob/12e92044d313c54c438bd786d11684c88f6f78cd/doc/indent_blankline.txt);
 - `rainbow_integration` (`table`): if set to a false-ish value, it disables
-  integration with the [`rainbow` layer](./RAINBOW.md) even when the latter is
-  enabled. Otherwise, it must be a list of tables describing [highlight groups](https://neovim.io/doc/user/syntax.html#highlight-groups)
-  to be shared by the `blankline` and `rainbow` layers. Said tables are ordered
-  by the outmost to the innermost highlight group to be used for indentation
-  vertical guides and parentheses. Each table has the following field:
+  integration with the [`rainbow` layer]({{< ref "rainbow" >}}) even when the
+  latter is enabled. Otherwise, it must be a list of tables describing [highlight
+  groups](https://neovim.io/doc/user/syntax.html#highlight-groups) to be shared
+  by the `blankline` and `rainbow` layers. Said tables are ordered by the
+  outmost to the innermost highlight group to be used for indentation vertical
+  guides and parentheses. Each table has the following field:
   - `name` (`string`): the name of the highlight group;
   - `fg` (`string`): a hex code in the form `#RRGGBB` to be used as foreground
     color for the highlighting. No background color will be set for the

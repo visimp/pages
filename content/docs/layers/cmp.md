@@ -23,9 +23,9 @@ Bindings can be customized via the configuration.
 - `lsp` (default `true`): whether autocomplete from the LSP suggestions;
 - `lspkind` (default `true`): whether autocomplete from LSP symbols
   à-la-IntelliSense;
-- `mappings` (see [Bindings](#bindings) for default): a table whose keys are
-  binds as strings (e.g. `'<C-d>`) and values are handlers, much like the
-  `cmp.mapping.preset.insert` method in
+- `mappings` (see [Bindings]({{< ref "#bindings" >}}) for default): a table
+  whose keys are binds as strings (e.g. `'<C-d>`) and values are handlers, much
+  like the `cmp.mapping.preset.insert` method in
   [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp#recommended-configuration);
 - `config` (default `{ experimental = { ghost_text = true } }`) configuration
   to be passed to `nvim-cmp`.
@@ -70,7 +70,7 @@ require('cmp_git').setup()
 ### `set_snippet(snippet)`
 
 Sets the snippet engine to be used, as specified [in the
-docs](https://github.com/hrsh7th/nvim-cmp/blob/main/doc/cmp.txt)
+docs](https://github.com/hrsh7th/nvim-cmp/blob/main/doc/cmp.txt).
 
 
 ```lua

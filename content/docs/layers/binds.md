@@ -11,7 +11,7 @@ following fields:
  - `bind`: binding trigger ([see `{lhs}`](https://neovim.io/doc/user/lua.html#vim.keymap.set(%29)));
  - `opts`: additional (non-mandatory) options ([see `{opts}`](https://neovim.io/doc/user/lua.html#vim.keymap.set(%29))).
    Should contain `desc`, a description of the binding (used by the [`whichkey`
-   layer](WHICHKEY.md)).
+   layer]({{< ref "whichkey" >}})).
 
 Each value is a function to be invoked when the binding is triggered.
 

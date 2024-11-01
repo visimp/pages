@@ -11,7 +11,7 @@ When in Fugitive-specific buffers, several bindings can be used as documented
 
 ## Configuration
 
-Visimp does not manage Fugitive's configuration. It must be set via vimscript
+`visimp` does not manage Fugitive's configuration. It must be set via vimscript
 global variables [specific to
 Fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt).
 

@@ -20,7 +20,7 @@ In normal mode:
 - `trouble` (defaults to `{}`) can be any valid configuration for Trouble (whose
   settings and defaults are documented [here](https://github.com/folke/trouble.nvim#%EF%B8%8F-configuration));
 - `binds` (default bindings are documented above) as would be passed to the
-  [`binds` layer](BINDS.md).
+  [`binds` layer]({{< ref "binds" >}}).
 
 ## Examples
 

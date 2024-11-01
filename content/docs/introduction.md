@@ -8,7 +8,7 @@ weight: 20
 `visimp` is a simple, modular Neovim configuration. By itself, `visimp` is
 actually nothing more than a Neovim plugin. As such, you just need to `require`
 it from your Neovim config and you're good to go (see
-[Configuration](CONFIG.md)).
+[Configuration]({{< ref "/docs/configuration" >}})).
 
 `visimp` is designed as a collection of _layers_, which is a pretty common
 structure in vi distributions. A layer is an extension to Neovim's
@@ -31,7 +31,8 @@ Two types of layers exist:
   language.
 
 One layer may declare others as its dependencies. Layer dependencies are
-always acyclic in `visimp`. You can read more in the [Layer](LAYER.md) section.
+always acyclic in `visimp`. You can read more in the [Layer]({{< ref
+"/docs/contributing/layer" >}}) section.
 
 ## Package Manager
 

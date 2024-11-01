@@ -15,7 +15,7 @@ Any valid configuration for `require('nvim-tree').setup` as documented
 field:
 
 - `icons` (defaults to `false`) whether to enable file/directory icons. Requires
-  the [`icons` layer](ICONS.md).
+  the [`icons` layer]({{< ref "icons" >}}).
 
 ## Examples
 

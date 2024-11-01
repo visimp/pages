@@ -10,7 +10,8 @@ plugin](https://lab.vern.cc/gitlab.com/HiPhish/rainbow-delimiters.nvim/).
 Any valid value for the `rainbow_delimiters` vimscript global variable ([see the
 rainbow-delimites.nvim's "Setup" section](https://lab.vern.cc/gitlab.com/HiPhish/rainbow-delimiters.nvim/-/about))
 is also a valid configuration for this layer. The `highlight` field might be
-overwritten by the rainbow integration of the [`blankline` layer](./BLANKLINE.md).
+overwritten by the rainbow integration of the [`blankline` layer]({{< ref
+"blankline" >}}).
 
 ## Examples
 

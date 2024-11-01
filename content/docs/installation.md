@@ -32,5 +32,6 @@ cp "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/pack/paks/start/visimp/_init
   "${XDG_DATA_HOME:-$HOME}"/.config/nvim/init.lua
 ```
 
-Finally, edit the `init.lua` file you just copied to enable your desired
-languages and configure any needed layer.
+Finally, edit the `init.lua` file you just copied to enable your [desired
+languages]({{< ref "/docs/languages/supported-languages" >}}) and configure any
+[needed layer]({{< ref "/docs/configuration" >}}).

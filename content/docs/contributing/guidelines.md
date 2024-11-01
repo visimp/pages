@@ -2,7 +2,7 @@
 weight: 10
 ---
 
-# Contributing Guidelines
+# Guidelines
 
 Thanks for considering helping us out! This page lists the steps required to
 contribute to the `visimp` project.
@@ -17,7 +17,8 @@ not waste time on contributions that will be rejected.
 ## Reading the documentation
 
 Before starting to work on your contribution, make sure you have read the
-[Introduction](INTRO.md), [Config](CONFIG.md), and [Layer](LAYER.md) sections.
+[Introduction]({{< ref "/docs/introduction" >}}), [Configuration]({{< ref
+"/docs/configuration" >}}), and [Layer]({{< ref "layer" >}}) sections.
 
 ## Writing code
 
@@ -26,22 +27,24 @@ take different extra steps.
 
 ### Working on internals
 
-Update [Introduction](INTRO.md), [Config](CONFIG.md), and [Layer](LAYER.md) as
-needed, if necessary.
+Update the [Introduction]({{< ref "/docs/introduction" >}}),
+[Configuration]({{< ref "/docs/configuration" >}}), and [Layer]({{< ref "layer"
+>}}) pages, if necessary.
 
 ### Working on a standard layer
 
 When editing/adding a standard (i.e., non-language) layer, make sure the
 respective documentation in `docs/layers` is up-to-date and referenced in the
-corresponding table in [Config](CONFIG.md).
+corresponding table in [Configuration]({{< ref "/docs/configuration" >}}).
 
 ### Working on a language layer
 
 When editing/adding a language layer, make sure it is listed in the
-corresponding table in [Config](CONFIG.md). If your language layer includes
+corresponding table in [Supported languages]({{< ref
+"/docs/languages/supported-languages" >}}). If your language layer includes
 peculiar features specific to said language's platform (e.g., `coq`, `lean`),
 the entry in the table should also link to a dedicated documentation page
-in `docs/languages`.
+in `docs/languages/quirks/`.
 
 In general, your language layer should provide a Tree-sitter grammar. You can
 look for one in the list of [`nvim-treesitter` supported
@@ -53,7 +56,8 @@ sure this language server is [supported by
 
 If your language layer's configuration does not have precisely two fields `lsp`
 and `lspconfig`(the default behavior when creating a new language layer),
-document so in [LANGUAGES](layers/LANGUAGES.md#configuration).
+document so in [the Configuration section of the Languages page]({{< ref
+"/docs/layers/languages#configuration" >}}).
 
 Make sure your language is listed in the sample configuration found in
 `_init.lua`.
@@ -65,16 +69,13 @@ Two types of documentation must be provided:
 - every Lua function or field must be annotated through
   [LuaCATS](https://luals.github.io/wiki/annotations/). The Lua Language Server
   supports this already;
-- the `docs/` folder contains a user manual written in Markdown. Files therein
-  are decorated with headers compatible with the [Hugo
-  Book](https://github.com/alex-shpak/hugo-book) Hugo theme. This way,
-  [`visimp/pages`](https://github.com/visimp/pages) can reuse the `docs/`
-  folder, too.
+- the main documentation is available at
+  [`visimp/pages`](https://github.com/visimp/pages).
 
 All tables and list in the documentation and in the sample configuration at
 `_init.lua` should be presented in alphabetical order. Capitals letters should
-be used uniformly. Please especially mind the capitalizations of "visimp" (which
-can also be monospaced as `visimp`) and "Treee-sitter".
+be used uniformly. Please especially mind the capitalizations of "`visimp`"
+(which is to be always monospaced) and "Tree-sitter".
 
 ## Final checks
 

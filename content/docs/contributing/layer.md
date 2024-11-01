@@ -5,8 +5,9 @@ weight: 20
 # Layer
 
 You've seen a high-level overview of what a layer is and how it's the central
-piece of your `visimp` configuration in the [introduction](INTRO.md). More
-concretely, a layer `L` is a structure with the following fields:
+piece of your `visimp` configuration in the [introduction]({{< ref
+"/docs/introduction" >}}). More concretely, a layer `L` is a structure with the
+following fields:
 
 - `L.identifier` is a unique string that identifies the layer. This identifier
   is usually a meaningful name, often matching with the Lua filename;

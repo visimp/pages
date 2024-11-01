@@ -6,7 +6,7 @@ title: "Comment (deprecated)"
 
 The `comment` layer provides support for (un)commenting code using
 [Comment.nvim](https://github.com/numToStr/Comment.nvim). **It has been
-deprecated since visimp v0.6.0 as nvim 0.10.0 now provides the same features
+deprecated since `visimp` v0.6.0 as nvim 0.10.0 now provides the same features
 builtin. Thus, it will be removed soon.**
 
 
