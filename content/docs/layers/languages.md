@@ -41,7 +41,7 @@ Several language layers diverge from this basic configuration:
 - `idris` has [its own doc page]({{< ref "/docs/languages/quirks/idris" >}});
 - `javascript` adds the `typescript` boolean option (defaults to `true`) to
   add Tree-sitter support for Typescript;
-- `latex` add the `autocompile` (defaults to `true`) option for automatic
+- `latex` adds the `autocompile` (defaults to `true`) option for automatic
   compilation via LS and the `tectonic` (defaults to `false`) option to ask
   default LS Texlab to compile via Tectonic;
 - `lean` has [its own doc page]({{< ref "/docs/languages/quirks/lean" >}});
