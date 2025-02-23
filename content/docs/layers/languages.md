@@ -45,7 +45,7 @@ Several language layers diverge from this basic configuration:
   compilation via LS and the `tectonic` (defaults to `false`) option to ask
   default LS Texlab to compile via Tectonic;
 - `lean` has [its own doc page]({{< ref "/docs/languages/quirks/lean" >}});
-- `prolog` and `toml` do not have LSs on Mason, and thus can only be configured
+- `toml` does not have a LS on Mason, and thus can only be configured
   if a preinstalled executable is specified.
 
 ## Examples
