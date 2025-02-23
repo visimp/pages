@@ -15,7 +15,6 @@ entries with peculiar features link to a more detailed explanation.
 | `ampl`                                | AMPL                  |
 | `bash`                                | Bash                  |
 | `c`                                   | C/C++                 |
-| [`rocq`]({{< ref "quirks/rocq" >}})   | Rocq                  |
 | `csharp`                              | C#                    |
 | `css`                                 | CSS                   |
 | `dart`                                | Dart                  |
@@ -38,6 +37,7 @@ entries with peculiar features link to a more detailed explanation.
 | `php`                                 | PHP                   |
 | `prolog`                              | (SWI-/GNU-/...)Prolog |
 | `python`                              | Python                |
+| [`rocq`]({{< ref "quirks/rocq" >}})   | Rocq                  |
 | `rust`                                | Rust                  |
 | `scheme`                              | Scheme                |
 | `svelte`                              | Svelte                |
