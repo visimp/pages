@@ -35,7 +35,11 @@ In normal mode:
 - `install` (default `true`): whether Mason should attempt to install language
   servers when none are explicitly specified;
 - `progess` (default `{}`): if nil, LSP progress reports are disabled;
-- `mason` (default `{}`): a valid [Mason config](https://github.com/williamboman/mason.nvim?tab=readme-ov-file#configuration);
+- `mason` (default `{}`): a valid [`mason.nvim` config](https://github.com/williamboman/mason.nvim?tab=readme-ov-file#configuration);
+- `mason-tool-installer` (default `{}`): a valid [`mason-tool-installer.nvim`
+   config](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim#configuration).
+   Its `ensure_installed` field will be extended with the language servers
+   required by the enabled language layers;
 - `nullls` (default `{}`): strings used as keys are considered null-ls source
   names, and their values the respective configs. When non-strings are used as
   keys (e.g. implicit number indices in arrays), their values are assumed to be
