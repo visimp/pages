@@ -29,7 +29,7 @@ entries with peculiar features link to a more detailed explanation.
 | `javascript`                          | JavaScript/TypeScript |
 | `json`                                | JSON                  |
 | `kotlin`                              | Kotlin                |
-| `latex`                               | $\LaTeX$              |
+| `latex`                               | LaTeX                 |
 | [`lean`]({{< ref "quirks/lean" >}})   | Lean                  |
 | `lua`                                 | Lua                   |
 | `markdown`                            | Markdown              |
