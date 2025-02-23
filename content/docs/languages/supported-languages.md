@@ -39,6 +39,7 @@ entries with peculiar features link to a more detailed explanation.
 | `prolog`                              | (SWI-/GNU-/...)Prolog |
 | `python`                              | Python                |
 | `rust`                                | Rust                  |
+| `scheme`                              | Scheme                |
 | `svelte`                              | Svelte                |
 | `swift`                               | Swift                 |
 | `toml`                                | TOML                  |
