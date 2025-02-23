@@ -9,6 +9,9 @@ The `idris` layer enables support for the Idris programming
 language via [idris2-vim](https://github.com/edwinb/idris2-vim). This plugin's
 documentation specifies its requirements.
 
+Currently, there is no built-in support for Tree-sitter or for a traditional
+language server.
+
 ## Bindings
 
 Mappings are available [in the "Interactive Editing Commands" section of idris2-vim](https://github.com/edwinb/idris2-vim?tab=readme-ov-file#interactive-editing-commands).
