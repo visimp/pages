@@ -42,7 +42,7 @@ corresponding table in [Configuration]({{< ref "/docs/configuration" >}}).
 When editing/adding a language layer, make sure it is listed in the
 corresponding table in [Supported languages]({{< ref
 "/docs/languages/supported-languages" >}}). If your language layer includes
-peculiar features specific to said language's platform (e.g., `coq`, `lean`),
+peculiar features specific to said language's platform (e.g., `rocq`, `lean`),
 the entry in the table should also link to a dedicated documentation page
 in `docs/languages/quirks/`.
 

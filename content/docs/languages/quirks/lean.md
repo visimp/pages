@@ -48,4 +48,4 @@ require("visimp") {
 ## Documentation
 
 The full documentation for the plugin is available
-[here](https://github.com/whonore/Coqtail/blob/main/doc/coqtail.txt).
+[here](https://github.com/Julian/lean.nvim/blob/main/doc/lean.txt).

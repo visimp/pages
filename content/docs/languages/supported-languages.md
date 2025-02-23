@@ -15,7 +15,7 @@ entries with peculiar features link to a more detailed explanation.
 | `ampl`                                | AMPL                  |
 | `bash`                                | Bash                  |
 | `c`                                   | C/C++                 |
-| [`coq`]({{< ref "quirks/coq" >}})     | Coq                   |
+| [`rocq`]({{< ref "quirks/rocq" >}})   | Rocq                  |
 | `csharp`                              | C#                    |
 | `css`                                 | CSS                   |
 | `dart`                                | Dart                  |

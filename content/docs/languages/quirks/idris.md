@@ -31,7 +31,7 @@ Server for the language.
 -- path/of/your/vim/config/init.lua
 
 require("visimp")({
-  coq = {
+  idris = {
     indent_if = 3 -- do not use the idris_ prefix
   },
   languages = {
