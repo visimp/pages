@@ -6,24 +6,24 @@ weight: 30
 # `idris` layer
 
 The `idris` layer enables support for the Idris programming
-language via [idris2-vim](https://github.com/edwinb/idris2-vim). This plugin's
-documentation specifies its requirements.
+language via the [idris2-vim](https://github.com/edwinb/idris2-vim) mode (whose
+documentation specifies the requirements) and the
+[idris2-lsp](https://github.com/idris-community/idris2-lsp) language server.
 
-Currently, there is no built-in support for Tree-sitter or for a traditional
-language server.
+Currently, there is no built-in support for Tree-sitter.
 
 ## Bindings
 
-Mappings are available [in the "Interactive Editing Commands" section of idris2-vim](https://github.com/edwinb/idris2-vim?tab=readme-ov-file#interactive-editing-commands).
+Mappings are available [in the "Interactive Editing Commands" section of
+idris2-vim](https://github.com/edwinb/idris2-vim?tab=readme-ov-file#interactive-editing-commands).
 
 ## Configuration
 
-Any vim **global** variable that [the "Configuration" section of idris2-vim](https://github.com/edwinb/idris2-vim#configuration)
-states can be set to configure idris2-vim is also a valid field for this layer's
-config, as long as you strip the `idris_` prefix. As Idris does not have a
-Language Server on Mason at the moment, `lspconfig` should only be used if `lsp`
-is set to the name of a preinstalled executable that can be used as a Language
-Server for the language.
+Any vim **global** variable that [the "Configuration" section of
+idris2-vim](https://github.com/edwinb/idris2-vim#configuration) states can be
+set to configure idris2-vim is also a valid field for this layer's config, as
+long as you strip the `idris_` prefix. As per usual, you may also use `lsp` and
+`lspconfig` to configure the language server.
 
 ## Examples
 
@@ -33,6 +33,9 @@ Server for the language.
 require("visimp")({
   idris = {
     indent_if = 3 -- do not use the idris_ prefix
+    lspconfig = {
+      -- language server config
+    }
   },
   languages = {
   "idris"
@@ -45,4 +48,8 @@ require("visimp")({
 The full documentation for the plugin is available
 [here](https://github.com/edwinb/idris2-vim?tab=readme-ov-file). The plugin was
 written by Idris designer [Edwin Brady](https://type-driven.org.uk/edwinb), who
-also wrote [a blog post titled "Interactive Idris editing with vim"](https://web.archive.org/web/20170307061942if_/http://edwinb.wordpress.com/2013/10/28/interactive-idris-editing-with-vim/).
+also wrote [a blog post titled "Interactive Idris editing with
+vim"](https://web.archive.org/web/20170307061942if_/http://edwinb.wordpress.com/2013/10/28/interactive-idris-editing-with-vim/).
+
+The language server [is also
+documented](https://github.com/idris-community/idris2-lsp/tree/main/doc).
