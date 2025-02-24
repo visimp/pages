@@ -101,6 +101,7 @@ reference page. You can look it up in the following table.
 | [`lspformat`]({{< ref "/docs/layers/lspformat" >}})       | Formatting on save via LSP                                                 | ☆       |
 | [`lspsignature`]({{< ref "/docs/layers/lspsignature" >}}) | Function signatures as you type                                            | ☆       |
 | [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking on natural language prose                                 |         |
+| [`neogit`]({{< ref "/docs/layers/neogit" >}})             | Git wrapper                                                                |         |
 | [`nvimtree`]({{< ref "/docs/layers/nvimtree" >}})         | File explorer tree                                                         |         |
 | [`rainbow`]({{< ref "/docs/layers/rainbow" >}})           | Rainbow parenthesis via Tree-sitter                                        | ☆       |
 | [`snippet`]({{< ref "/docs/layers/snippet" >}})           | Code snippets engine                                                       | ☆       |
@@ -118,4 +119,5 @@ reference page. You can look it up in the following table.
 | Layer name                                                | Short description                                 |
 | --------------------------------------------------------- | ------------------------------------------------- |
 | ~~[`comment`]({{< ref "/docs/layers/comment" >}})~~       | ~~Automatic (un)commenting support~~              |
+| ~~[`fugitive`]({{< ref "/docs/layers/fugitive" >}})~~     | ~~Git wrapper~~                                   |
 | ~~[`outline`]({{< ref "/docs/layers/outline" >}})~~       | ~~Buffer outline as a tree-like view of symbols~~ |

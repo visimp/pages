@@ -1,7 +1,13 @@
-# `fugitive` layer
+---
+title: "Fugitive (deprecated)"
+---
+
+# `fugitive` layer (deprecated)
 
 The `fugitive` layer allows you to use git from within vim via the
-[Fugitive](https://github.com/tpope/vim-fugitive) plugin.
+[Fugitive](https://github.com/tpope/vim-fugitive) plugin. **It will be/was
+deprecated in `visimp` v0.8.0 in favor of the [`neogit`]({{< ref
+"/docs/layers/neogit" >}}) layer.**
 
 ## Bindings
 
