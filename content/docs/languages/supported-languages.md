@@ -11,7 +11,7 @@ entries with peculiar features link to a more detailed explanation.
 
 | Layer name                            | Language              |
 | ------------------------------------- | --------------------- |
-| `agda`                                | Agda                  |
+| [`agda`]({{< ref "quirks/agda" >}})   | Agda                  |
 | `ampl`                                | AMPL                  |
 | `bash`                                | Bash                  |
 | `c`                                   | C/C++                 |
