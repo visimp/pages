@@ -31,7 +31,6 @@ Several language layers diverge from this basic configuration:
   adds support for the Fish shell;
 - `c` adds the `c` and `cpp` options (both default to `true`) which enable
   support for both languages;
-- `coq` has [its own doc page]({{< ref "/docs/languages/quirks/coq" >}});
 - `css` adds the `scss` option (defaults to `false`) which, if set to true,
   adds Tree-sitter support for SCSS;
 - `dart` adds the `flutter` boolean option (defaults to `false`) and the
@@ -46,6 +45,7 @@ Several language layers diverge from this basic configuration:
   compilation via LS and the `tectonic` (defaults to `false`) option to ask
   default LS Texlab to compile via Tectonic;
 - `lean` has [its own doc page]({{< ref "/docs/languages/quirks/lean" >}});
+- `rocq` has [its own doc page]({{< ref "/docs/languages/quirks/rocq" >}});
 - `toml` does not have a LS on Mason, and thus can only be configured
   if a preinstalled executable is specified.
 

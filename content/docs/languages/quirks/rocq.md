@@ -1,8 +1,8 @@
 ---
-weight: 20
+weight: 50
 ---
 
-# `coq` layer
+# `rocq` layer
 
 The `coq` layer enables support for the Coq proof assistant/programming
 language via [Coqtail](https://github.com/whonore/Coqtail), which makes use of
@@ -31,11 +31,11 @@ Thus, the usual `lsp` and `lspconfig` fields should not be used.
 -- path/of/your/vim/config/init.lua
 
 require("visimp")({
-  coq = {
+  rocq = {
     indent_on_dot = 1 -- do not use the coqtail_ prefix
   },
   languages = {
-    "coq"
+    "rocq"
   }
 })
 ```
