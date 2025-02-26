@@ -100,7 +100,7 @@ reference page. You can look it up in the following table.
 | [`lsp`]({{< ref "/docs/layers/lsp" >}})                   | Manager for Neovim's LSP client and LSP servers  |
 | [`lspformat`]({{< ref "/docs/layers/lspformat" >}})       | Formatting on save via LSP                       |
 | [`lspsignature`]({{< ref "/docs/layers/lspsignature" >}}) | Function signatures as you type                  |
-| [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking via LanguageTool                |
+| [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking on natural language prose       |
 | [`nvimtree`]({{< ref "/docs/layers/nvimtree" >}})         | File explorer tree                               |
 | [`rainbow`]({{< ref "/docs/layers/rainbow" >}})           | Rainbow parenthesis via Tree-sitter              |
 | [`snippet`]({{< ref "/docs/layers/snippet" >}})           | Code snippets engine                             |
@@ -108,6 +108,7 @@ reference page. You can look it up in the following table.
 | [`telescope`]({{< ref "/docs/layers/telescope" >}})       | Fuzzy finder and related features                |
 | [`theme`]({{< ref "/docs/layers/theme" >}})               | Install and enable classic vim themes            |
 | [`treesitter`]({{< ref "/docs/layers/treesitter" >}})     | Syntax highlighting                              |
+| [`typos`]({{< ref "/docs/layers/typos" >}})               | Source code spellchecker                         |
 | [`whichkey`]({{< ref "/docs/layers/whichkey" >}})         | Popups for key bindings suggestions              |
 | [`zen`]({{< ref "/docs/layers/zen" >}})                   | Distraction-free "zen" mode                      |
 
