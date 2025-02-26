@@ -83,34 +83,34 @@ check the [list of supported languages]({{< ref "/docs/languages/supported-langu
 Before configuring a new standard layer, you're advised to take a look at its
 reference page. You can look it up in the following table.
 
-| Layer name                                                | Short description                                |
-| --------------------------------------------------------- | ------------------------------------------------ |
-| [`autopairs`]({{< ref "/docs/layers/autopairs" >}})       | Automatic completion of `{`, `(`, and HTML tags  |
-| [`binds`]({{< ref "/docs/layers/binds" >}})               | Custom bindings for native Vim commands          |
-| [`blankline`]({{< ref "/docs/layers/blankline" >}})       | Indentation guides                               |
-| [`cmp`]({{< ref "/docs/layers/cmp" >}})                   | Completion engine                                |
-| [`colorizer`]({{< ref "/docs/layers/colorizer" >}})       | Color highlighter                                |
-| [`defaults`]({{< ref "/docs/layers/defaults" >}})         | Customizable sane defaults                       |
-| [`diagnostics`]({{< ref "/docs/layers/diagnostics" >}})   | Pretty list of diagnostics, quickfixes, and more |
-| [`fugitive`]({{< ref "/docs/layers/fugitive" >}})         | Git wrapper                                      |
-| [`gitsigns`]({{< ref "/docs/layers/gitsigns" >}})         | Git code decorations                             |
-| [`greeter`]({{< ref "/docs/layers/greeter" >}})           | Custom Nvim greeter                              |
-| [`icons`]({{< ref "/docs/layers/icons" >}})               | Adds file type icons                             |
-| [`languages`]({{< ref "/docs/layers/languages" >}})       | Enable [language layers](#language-layers)       |
-| [`lsp`]({{< ref "/docs/layers/lsp" >}})                   | Manager for Neovim's LSP client and LSP servers  |
-| [`lspformat`]({{< ref "/docs/layers/lspformat" >}})       | Formatting on save via LSP                       |
-| [`lspsignature`]({{< ref "/docs/layers/lspsignature" >}}) | Function signatures as you type                  |
-| [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking on natural language prose       |
-| [`nvimtree`]({{< ref "/docs/layers/nvimtree" >}})         | File explorer tree                               |
-| [`rainbow`]({{< ref "/docs/layers/rainbow" >}})           | Rainbow parenthesis via Tree-sitter              |
-| [`snippet`]({{< ref "/docs/layers/snippet" >}})           | Code snippets engine                             |
-| [`statusline`]({{< ref "/docs/layers/statusline" >}})     | Customizable status line                         |
-| [`telescope`]({{< ref "/docs/layers/telescope" >}})       | Fuzzy finder and related features                |
-| [`theme`]({{< ref "/docs/layers/theme" >}})               | Install and enable classic vim themes            |
-| [`treesitter`]({{< ref "/docs/layers/treesitter" >}})     | Syntax highlighting                              |
-| [`typos`]({{< ref "/docs/layers/typos" >}})               | Source code spellchecker                         |
-| [`whichkey`]({{< ref "/docs/layers/whichkey" >}})         | Popups for key bindings suggestions              |
-| [`zen`]({{< ref "/docs/layers/zen" >}})                   | Distraction-free "zen" mode                      |
+| Layer name                                                | Short description                                | Default |
+| --------------------------------------------------------- | ------------------------------------------------ | :-----: |
+| [`autopairs`]({{< ref "/docs/layers/autopairs" >}})       | Automatic completion of `{`, `(`, and HTML tags  |         |
+| [`binds`]({{< ref "/docs/layers/binds" >}})               | Custom bindings for native Vim commands          |         |
+| [`blankline`]({{< ref "/docs/layers/blankline" >}})       | Indentation guides                               |         |
+| [`cmp`]({{< ref "/docs/layers/cmp" >}})                   | Completion engine                                | ☆       |
+| [`colorizer`]({{< ref "/docs/layers/colorizer" >}})       | Color highlighter                                |         |
+| [`defaults`]({{< ref "/docs/layers/defaults" >}})         | Customizable sane defaults                       | ☆       |
+| [`diagnostics`]({{< ref "/docs/layers/diagnostics" >}})   | Pretty list of diagnostics, quickfixes, and more |         |
+| [`fugitive`]({{< ref "/docs/layers/fugitive" >}})         | Git wrapper                                      |         |
+| [`gitsigns`]({{< ref "/docs/layers/gitsigns" >}})         | Git code decorations                             |         |
+| [`greeter`]({{< ref "/docs/layers/greeter" >}})           | Custom Nvim greeter                              | ☆       |
+| [`icons`]({{< ref "/docs/layers/icons" >}})               | Adds file type icons                             |         |
+| [`languages`]({{< ref "/docs/layers/languages" >}})       | Enable [language layers](#language-layers)       | ☆       |
+| [`lsp`]({{< ref "/docs/layers/lsp" >}})                   | Manager for Neovim's LSP client and LSP servers  | ☆       |
+| [`lspformat`]({{< ref "/docs/layers/lspformat" >}})       | Formatting on save via LSP                       | ☆       |
+| [`lspsignature`]({{< ref "/docs/layers/lspsignature" >}}) | Function signatures as you type                  | ☆       |
+| [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking on natural language prose       |         |
+| [`nvimtree`]({{< ref "/docs/layers/nvimtree" >}})         | File explorer tree                               |         |
+| [`rainbow`]({{< ref "/docs/layers/rainbow" >}})           | Rainbow parenthesis via Tree-sitter              | ☆       |
+| [`snippet`]({{< ref "/docs/layers/snippet" >}})           | Code snippets engine                             | ☆       |
+| [`statusline`]({{< ref "/docs/layers/statusline" >}})     | Customizable status line                         | ☆       |
+| [`telescope`]({{< ref "/docs/layers/telescope" >}})       | Fuzzy finder and related features                | ☆       |
+| [`theme`]({{< ref "/docs/layers/theme" >}})               | Install and enable classic vim themes            | ☆       |
+| [`treesitter`]({{< ref "/docs/layers/treesitter" >}})     | Syntax highlighting                              | ☆       |
+| [`typos`]({{< ref "/docs/layers/typos" >}})               | Source code spellchecker                         |         |
+| [`whichkey`]({{< ref "/docs/layers/whichkey" >}})         | Popups for key bindings suggestions              |         |
+| [`zen`]({{< ref "/docs/layers/zen" >}})                   | Distraction-free "zen" mode                      |         |
 
 ### Deprecated standard layers
 
