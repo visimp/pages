@@ -40,7 +40,7 @@ require("visimp")({
     buffer = true -- autocomplete from the buffer
     config = {
       experimental = {
-        ghost_text = false -- disable exprimental ghost text
+        ghost_text = false -- disable experimental ghost text
       },
     },
   },

@@ -86,7 +86,9 @@ from the project's root directory:
 ```bash
 stylua . # formatter
 luacheck . # linter
+typos . # spellchecker
 ```
 
-If your work is not properly formatted or contains linter warnings/error, the
-respective automated tests will fail on your pull request.
+If your work is not properly formatted, contains linter warnings/error, or
+English spelling errors, the respective automated tests will fail on your pull
+request.

@@ -34,7 +34,7 @@ In normal mode:
 
 - `install` (default `true`): whether Mason should attempt to install language
   servers when none are explicitly specified;
-- `progess` (default `{}`): if nil, LSP progress reports are disabled;
+- `progress` (default `{}`): if nil, LSP progress reports are disabled;
 - `mason` (default `{}`): a valid [`mason.nvim` config](https://github.com/williamboman/mason.nvim?tab=readme-ov-file#configuration);
 - `mason-tool-installer` (default `{}`): a valid [`mason-tool-installer.nvim`
    config](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim#configuration).
