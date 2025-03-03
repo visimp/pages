@@ -33,12 +33,23 @@ normal mode:
 - `<C-A>` is like `agda-mode`'s `<C-A>`, but also targets sub/super-scripts;
 - `<C-X>` is like `agda-mode`'s `<C-X>`, but also targets sub/super-scripts.
 
+As described in the
+[_Configuration_ section]({{< relref "#configuration" >}}), binds can be freely
+overwritten by the user.
+
 ## Configuration
 
-Any vim **global** variable mentioned in [the "Configuration" section of
-Cornelis](https://github.com/agda/cornelis#configuring-cornelis-behavior)
-is also a valid field for this layer's config, as long as you strip the
-`cornelis_` prefix.
+On top of the usual `lsp` and `lspconfig` fields, the following are available:
+
+- `cornelis` (defaults to `{}`): a table describing the settings to be used for
+  `cornelis`. Any vim **global** variable mentioned in [the "Configuration"
+  section of
+  Cornelis](https://github.com/agda/cornelis#configuring-cornelis-behavior)
+  is also a valid subfield for this table, as long as you strip the `cornelis_`
+  prefix;
+- `binds` (defaults described in the [_Bindings_
+  section]({{< relref "#bindings" >}})): bindings as would be passed to the
+  [`binds` layer]({{< ref "binds" >}}).
 
 ## Examples
 
@@ -47,13 +58,24 @@ is also a valid field for this layer's config, as long as you strip the
 
 require("visimp")({
   agda = {
-    max_size = 30 -- do not use the cornelis_ prefix for Cornelis settings
     lspconfig = {
       -- your Agda Language Server config
-    }
+    },
+    cornelis = {
+        max_size = 30, -- do not use the cornelis_ prefix for Cornelis settings
+    },
+    binds = {
+      [{
+        mode = 'i',
+        bind = '<C-l>',
+        opts = {
+          desc = 'Agda: Load and type-check buffer',
+        },
+      }] = vim_cmd_cb 'CornelisLoad',
+    },
   },
   languages = {
-    "agda"
+    "agda",
   }
 })
 ```
