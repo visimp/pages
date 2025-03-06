@@ -44,6 +44,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          # All history of the branch is needed to generate 'Last modified by'
+          # and 'Author' metadata. Would be more efficient to have
+          # --single-branch: https://github.com/actions/checkout/issues/285
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
