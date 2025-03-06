@@ -35,6 +35,6 @@ enableGitInfo = true
 
 [params]
   BookCommitPath = 'commit'
-  # BookEditPath = 'edit/main/' # one content/ folder too many
+  BookEditPath = 'edit/main'
   BookTheme = 'auto'
-  BookRepo = 'https://github.com/visimp/visimp'
+  BookRepo = 'https://github.com/visimp/pages'
