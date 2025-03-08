@@ -17,7 +17,7 @@ null-ls, as none-ls does not rename its API for compatibility concerns.
 In normal mode:
 
 - `gD` goes to declaration;
-- `gd` does to definition;
+- `gd` goes to definition;
 - `K` shows hover;
 - `gi` goes to implementation;
 - `<C-K>` shows signature help;

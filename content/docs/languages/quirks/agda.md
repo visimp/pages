@@ -15,19 +15,26 @@ Neovim). The latter requires
 
 ## Bindings
 
-Some default bindings are provided for Cornelis. They are the same as the ones
-specified in [Cornelis's example
-configuration](https://github.com/agda/cornelis#example-configuration). In
-normal mode:
+Some default bindings are provided for Cornelis. They are the similar to the
+ones specified in [Cornelis's example
+configuration](https://github.com/agda/cornelis#example-configuration), with 
+two modifications:
+1. `<leader>` became `<leader>a` (`a` like "Agda") to group such Agda-related
+   bindings together;
+2. the bind for "go to definition" has been replaced in order not to conflict
+   with the homonymous [bind found in the `lsp` layer]({{< relref
+   "/docs/layers/lsp#bindings" >}}).
 
-- `<leader>l` **loads** and type-checks the buffer;
-- `<leader>r` **refines** the goal;
-- `<leader>d` performs a case **distinction**/split;
-- `<leader>,` shows goal type and context;
-- `<leader>.` shows inferred type of hole contents;
-- `<leader>n` solves constraints;
-- `<leader>a` performs an **automatic** proof search;
-- `gd` **goes** to **definition**;
+In normal mode:
+
+- `<leader>al` **loads** and type-checks the buffer;
+- `<leader>ar` **refines** the goal;
+- `<leader>ad` performs a case **distinction**/split;
+- `<leader>a,` shows goal type and context;
+- `<leader>a.` shows inferred type of hole contents;
+- `<leader>an` solves constraints;
+- `<leader>aa` performs an **automatic** proof search;
+- `<leader>ag` **goes** to **definition**;
 - `[/` jumps to previous goal;
 - `/]` jumps to next goal;
 - `<C-A>` is like `agda-mode`'s `<C-A>`, but also targets sub/super-scripts;
