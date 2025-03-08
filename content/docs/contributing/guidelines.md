@@ -84,9 +84,18 @@ warnings. Then, before submitting your contribution, please run the following
 from the project's root directory:
 
 ```bash
-stylua . # formatter
-luacheck . # linter
-typos . # spellchecker
+# Format
+
+stylua .
+
+# Lint
+
+"${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/mason/bin/lua-language-server --check .
+luacheck .
+
+# Spellcheck
+
+typos .
 ```
 
 If your work is not properly formatted, contains linter warnings/error, or
