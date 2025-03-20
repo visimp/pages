@@ -48,11 +48,19 @@ jobs:
           # and 'Author' metadata. Would be more efficient to have
           # --single-branch: https://github.com/actions/checkout/issues/285
           fetch-depth: 0
+      - name: Install emmylua_doc_cli
+        uses: baptiste0928/cargo-install@v3
+        with:
+          crate: emmylua_doc_cli
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Generate reference
+        run: emmylua_doc_cli -i visimp/lua/visimp/
+      - name: Move reference
+        run: mv output/docs/modules/* content/docs/reference/*
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
