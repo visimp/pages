@@ -28,8 +28,6 @@ defaults:
     shell: bash
 
 jobs:
-  setup:
-    runs-on: 
   # Build job
   build:
     runs-on: ubuntu-latest
