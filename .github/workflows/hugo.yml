@@ -60,7 +60,7 @@ jobs:
       - name: Generate reference
         run: emmylua_doc_cli -i visimp/lua/visimp/
       - name: Move reference
-        run: mv output/docs/modules/* content/docs/reference/modules/*
+        run: mv output/docs/modules/* content/docs/reference/modules/
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
