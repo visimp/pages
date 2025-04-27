@@ -10,8 +10,6 @@ language via the [idris2-vim](https://github.com/edwinb/idris2-vim) mode (whose
 documentation specifies the requirements) and the
 [idris2-lsp](https://github.com/idris-community/idris2-lsp) language server.
 
-Currently, there is no built-in support for Tree-sitter.
-
 ## Bindings
 
 Mappings are available [in the "Interactive Editing Commands" section of
