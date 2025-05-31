@@ -17,17 +17,17 @@ sets 'ltex.language' to 'en-US'.
 
 require("visimp")({
   ltex = {
-    language = 'de-DE',
+    language = "de-DE",
     dictionary = {
-      "en-US": [
+      ["en-US"] = {
         "adaptivity",
         "precomputed",
         "subproblem"
-      ],
-      "de-DE": [
+      },
+      ["de-DE"] = {
         "B-Splines",
         ":/path/to/externalFile.txt"
-      ]
+      },
     },
   },
 })
