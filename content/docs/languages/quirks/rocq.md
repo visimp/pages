@@ -54,7 +54,7 @@ require("visimp")({
         opts = {
           desc = 'Rocq: check up to current line',
         },
-      }] = vim_cmd_cb 'CoqToLine',
+      }] = function() vim.cmd 'CoqToLine' end,
     },
   },
   languages = {
