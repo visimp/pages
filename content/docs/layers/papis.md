@@ -18,7 +18,7 @@ Any [valid configuration for
 `papis.nvim`](https://github.com/jghauser/papis.nvim#setup) is a valid
 configuration for this layer. If you do not specify a value for
 `init_filetypes`, `visimp` will try to infer one based on the [language
-layers](../language) you have enabled.
+layers]({{< ref "../languages" >}}) you have enabled.
 
 ## Examples
 
