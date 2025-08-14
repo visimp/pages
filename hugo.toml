@@ -36,5 +36,5 @@ enableGitInfo = true
 [params]
   BookCommitPath = 'commit'
   BookEditPath = 'edit/main'
-  BookTheme = 'auto'
   BookRepo = 'https://github.com/visimp/pages'
+  BookTheme = 'auto'
