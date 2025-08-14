@@ -103,6 +103,7 @@ reference page. You can look it up in the following table.
 | [`ltex`]({{< ref "/docs/layers/ltex" >}})                 | Grammar checking on natural language prose                                 |         |
 | [`neogit`]({{< ref "/docs/layers/neogit" >}})             | Git wrapper                                                                |         |
 | [`nvimtree`]({{< ref "/docs/layers/nvimtree" >}})         | File explorer tree                                                         |         |
+| [`papis`]({{< ref "/docs/layers/papis" >}})               | Bibliography management via Papis                                          |         |
 | [`rainbow`]({{< ref "/docs/layers/rainbow" >}})           | Rainbow parenthesis via Tree-sitter                                        | ☆       |
 | [`snippet`]({{< ref "/docs/layers/snippet" >}})           | Code snippets engine                                                       | ☆       |
 | [`statusline`]({{< ref "/docs/layers/statusline" >}})     | Customizable status line                                                   | ☆       |
