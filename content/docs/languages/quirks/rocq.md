@@ -4,10 +4,10 @@ weight: 50
 
 # `rocq` layer
 
-The `coq` layer enables support for the Coq proof assistant/programming
+The `rocq` layer enables support for the Rocq proof assistant/programming
 language via [Coqtail](https://github.com/whonore/Coqtail), whose requirements
-are specified in the documentation. [Coq
-LSP](https://github.com/ejgallego/coq-lsp) and Tree-sitter support are currently
+are specified in the documentation. [Rocq
+LSP](https://github.com/ejgallego/rocq-lsp) and Tree-sitter support are currently
 not available.
 
 ## Bindings
