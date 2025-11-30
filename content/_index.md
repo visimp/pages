@@ -6,5 +6,4 @@ title: Home
 
 > The simp counterpart of NvChad.
 
-`visimp` is a simple and modular Neovim v0.10.0+ configuration. [Read the
-documentation](docs/).
+`visimp` is a simple and modular Neovim v0.10.0+ configuration.
