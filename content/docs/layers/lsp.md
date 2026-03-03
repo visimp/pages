@@ -24,6 +24,7 @@ In normal mode:
 - `<leader>D` shows type definition;
 - `<leader>rn` renames the current symbol;
 - `<leader>ca` runs a code action;
+- `<leader>cc` runs a code lens;
 - `<gr>` goes to references;
 - `<leader>e` show line diagnostics;
 - `[d` goes to previous diagnostic;
