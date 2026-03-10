@@ -22,6 +22,21 @@ Then, start Neovim and run `:Copilot setup` to install the plugin and follow
 the instructions to authenticate with GitHub.
 See [the official documentation](https://github.com/github/copilot.vim) for more details.
 
+Any vim **global** variable that [the official documentation
+](https://github.com/github/copilot.vim/blob/release/doc/copilot.txt) states can be
+set to configure `copilot.vim` is also a valid field for this layer's config, as
+long as you strip the `copilot_` prefix.
 
+## Examples
 
+```lua
+-- path/of/your/vim/config/init.lua
 
+require("visimp")({
+  copilot = {
+    filetypes = { -- do not use the copilot_ prefix
+        xml = false, -- disable copilot for xml files
+    },
+  },
+})
+```
