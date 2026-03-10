@@ -90,7 +90,7 @@ reference page. You can look it up in the following table.
 | [`blankline`]({{< ref "/docs/layers/blankline" >}})       | Indentation guides                                                         |         |
 | [`cmp`]({{< ref "/docs/layers/cmp" >}})                   | Completion engine                                                          | ☆       |
 | [`colorizer`]({{< ref "/docs/layers/colorizer" >}})       | Color highlighter                                                          |         |
-| [`colorizer`]({{< ref "/docs/layers/copilot" >}})         | GitHub Copilot integration                                                 |         |
+| [`copilot`]({{< ref "/docs/layers/copilot" >}})           | GitHub Copilot integration                                                 |         |
 | [`defaults`]({{< ref "/docs/layers/defaults" >}})         | Customizable sane defaults                                                 | ☆       |
 | [`diagnostics`]({{< ref "/docs/layers/diagnostics" >}})   | Pretty list of diagnostics, quickfixes, and more                           |         |
 | [`fugitive`]({{< ref "/docs/layers/fugitive" >}})         | Git wrapper                                                                |         |
